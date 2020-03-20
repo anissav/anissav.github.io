@@ -1,0 +1,315 @@
+#bloc_page
+{
+width: 90%;
+margin:auto;
+}
+
+header
+{
+	background-color: #373741;
+	text-align: right;
+    width: 100%;
+    height: 14%;
+}
+
+body
+{
+   font-family: LatoWeb;
+}
+
+
+header h1
+{
+	padding-right: 200px;
+	font-family: aleoregular;
+	letter-spacing: 5px;
+	color: #e1d8cf;
+	font-size: 4.5em;
+	height: 60px;
+}
+
+header h2
+{
+	padding-right:80px;
+	font-size: 2.3em;
+	font-family: LatoWeb;
+	letter-spacing: 5px;
+	color:white;
+}
+
+@font-face {
+    font-family: 'aleoregular';
+    src: url('fonts/Aleo-Regular-webfont.eot');
+    src: url('fonts/Aleo-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Aleo-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Aleo-Regular-webfont.woff') format('woff'),
+         url('fonts/Aleo-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Aleo-Regular-webfont.svg#aleoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LatoWeb';
+    src: url('fonts/Lato-Regular.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Lato-Regular.woff2') format('woff2'), /* Modern Browsers */
+         url('fonts/Lato-Regular.woff') format('woff'), /* Modern Browsers */
+         url('fonts/Lato-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+#conteneur
+{
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    border-right: solid #373741 1px;
+}
+
+aside
+{
+    background-color: #d6afb9;
+    width: 40%;
+    height: 100%;
+}
+
+main
+{
+    width:60%;
+    height: 100%;
+}
+
+
+main h1
+{
+    background-color: #373741;
+    padding:15px;
+    margin-top: 60px;
+    width: 70%;
+    margin-left: 155px;
+    
+}
+
+aside h1
+{
+   background-color: #373741;
+    width:80%;
+    padding: 15px; 
+    margin-top: 50px;
+    margin-left: 40px;
+    
+}
+
+aside h2
+{
+    margin-left: 55px;
+}
+
+
+main h2
+{
+    margin-bottom: 10px;
+    max-width: 80%;
+    padding-top: 30px;
+}
+
+.titre1
+{
+    padding-top: 10px;
+}
+
+main p
+{
+    margin-top: 13px;
+}
+
+
+h1
+{
+   font-family: aleoregular;
+    color: #e1d8cf;
+    letter-spacing: 3px;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+h2
+{
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.p1
+{
+    font-size: 1.7em;
+    text-align: justify;
+    padding-top: 190px;
+    font-weight: bold;
+    margin-left:0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 1.4em;
+
+}
+
+.p2
+{
+    margin-left: 55px;
+    margin-top: -15px;
+
+}
+
+.langue
+{
+    padding-bottom: 0px;
+}
+
+p
+{
+    font-size: 1.4em;
+    margin-left: 170px;
+}
+
+em
+{
+    font-style: italic;
+    font-size: 1.4em;
+    margin-left: 170px;
+}
+
+#photo img
+{
+  position: absolute;
+  left:270px;
+  height: 360px;
+  width: 330px;
+  top:70px;
+}
+
+#graphique img
+{
+    height: 500px;
+    padding-bottom: 16px;
+}
+
+
+footer
+{
+    background-color: #373741;
+    width: 100%;
+    height: 120px;
+    color: white;
+    font-size: 1.3em;
+    margin-top: -21px;
+}
+
+span
+{
+    padding-right: 55px;
+    padding-left: 40px;
+    font-size: 1.1em
+}
+
+.suite
+{
+    margin-left: 165px;
+    margin-top: -40px;
+}
+
+ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+    letter-spacing: 3px;
+}
+
+#étoiles4 img
+{
+    position: absolute;
+    left: 520px;
+    height: 40px;
+    top:750px;
+}
+
+#étoiles3 img
+{
+
+    position: absolute;
+    left: 520px;
+    height: 40px;
+    top: 800px;
+}
+
+#étoiles2 img
+{
+    position: absolute;
+    left: 520px;
+    height: 40px;
+    top:850px;
+}
+
+#étoiles22 img
+{
+    position: absolute;
+    left: 520px;
+    height: 40px;
+    top:900px;
+}
+
+
+#étoiles23 img
+{
+    position: absolute;
+    left: 520px;
+    height: 40px;
+    top:950px;
+}
+
+#étoiles32 img
+{
+    position: absolute;
+    left: 520px;
+    height: 40px;
+    top:1120px;
+}
+
+#étoiles42 img
+{
+    position: absolute;
+    left: 520px;
+    height: 40px;
+    top:1225px;
+}
+
+#téléphone img
+{
+    position: absolute;
+    height: 50px;
+    left:165px;
+    top: 1980px;
+
+}
+
+#localisation img
+{
+    position: absolute;
+    height: 50px;
+    left:540px;
+    top: 1978px;
+
+}
+
+#mail img
+{
+    position: absolute;
+    height: 50px;
+    left:1360px;
+    top: 1975px;
+
+}
